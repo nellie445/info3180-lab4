@@ -18,3 +18,23 @@ body {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
+
+.files-row
+{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 0px;
+
+}
+
+.img-thumbnail
+{
+
+    height: 500px;
+    width: 500px;
+    border: 0px;
+    border-radius: 0px;
+    padding: 0px, 15px, 0px, 15px;
+
+}
